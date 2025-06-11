@@ -113,14 +113,16 @@ The `STUDENT` role (or missing/invalid roles) only has read access.
 
 ### Example Requests
 
-Method | Path                    | Description             | Role  
-GET    | /api/v1/students        | Get all students        | Any  
-POST   | /api/v1/students        | Add a new student       | TEACHER  
-GET    | /api/v1/students/{id}   | Get student by ID       | Any  
-PUT    | /api/v1/students/{id}   | Update tokens           | TEACHER  
-DELETE | /api/v1/students/{id}   | Delete student          | TEACHER
+| Method | Path                    | Description          | Role    |
+|--------|-------------------------|----------------------|---------|
+| GET    | /api/v1/students        | Get all students     | Any     |
+| POST   | /api/v1/students        | Add a new student    | TEACHER |
+| GET    | /api/v1/students/{id}   | Get student by ID    | Any     |
+| PUT    | /api/v1/students/{id}   | Update tokens        | TEACHER |
+| DELETE | /api/v1/students/{id}   | Delete student       | TEACHER |
 
 ---
+
 
 ## Logging
 
@@ -157,15 +159,16 @@ SchoolDiary/
 │   │   │   ├── model/  
 │   │   │   ├── config/  
 │   │   │   ├── aspect/  
-│   │   │   ├── util/
-│   │   │   └── annotation/
-│   │   └── resources/  
-│   │       ├── students.csv  
-│   │       └── application.properties  
+│   │   │   ├── util/  
+│   │   │   └── annotation/  
+│   └── resources/  
+│       ├── students.csv  
+│       └── application.properties  
 ├── build.gradle.kts  
 └── README.md
 
 ---
+
 
 ## License
 
